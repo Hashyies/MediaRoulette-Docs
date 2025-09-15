@@ -13,7 +13,7 @@ MediaRoulette is a fun Discord bot that fetches random images, anime, memes, and
 Get started by **adding MediaRoulette to your Discord server or as a personal bot**.
 
 Click the **Add to Discord** button on our homepage or use this direct link:
-**[Add MediaRoulette Bot](https://discord.com/oauth2/authorize?client_id=YOUR_BOT_ID&permissions=YOUR_PERMISSIONS&scope=bot%20applications.commands)**
+**[Add MediaRoulette Bot](https://discord.com/oauth2/authorize?client_id=1026903036959932416)**
 
 ### What you'll need
 
