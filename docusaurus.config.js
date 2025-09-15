@@ -101,7 +101,15 @@ const config = {
               },
               {
                 label: 'Commands',
-                to: '/docs/tutorial-basics/create-a-document',
+                to: '/docs/commands/overview',
+              },
+              {
+                label: 'Contributing',
+                to: '/docs/contributing',
+              },
+              {
+                label: 'Plugins',
+                to: '/docs/plugins/introduction',
               },
             ],
           },
