@@ -24,7 +24,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--primary button--lg"
-            href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_ID&permissions=YOUR_PERMISSIONS&scope=bot%20applications.commands">
+            href="https://discord.com/oauth2/authorize?client_id=1026903036959932416">
             Add to Discord
           </Link>
         </div>
