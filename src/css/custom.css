@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/**
+ * MediaRoulette Theme - Simple dark theme with main site colors
+ */
+
+:root {
+  --ifm-color-primary: #3b82f6;
+  --ifm-color-primary-dark: #2563eb;
+  --ifm-color-primary-darker: #1d4ed8;
+  --ifm-color-primary-darkest: #1e40af;
+  --ifm-color-primary-light: #60a5fa;
+  --ifm-color-primary-lighter: #93c5fd;
+  --ifm-color-primary-lightest: #dbeafe;
+  --ifm-font-family-base: 'Inter', sans-serif;
+  --docusaurus-highlighted-code-line-bg: rgba(59, 130, 246, 0.1);
+}
+
+/* Dark mode overrides - simple and clean */
+[data-theme='dark'] {
+  --ifm-background-color: #0a0a0a;
+  --ifm-background-surface-color: #111111;
+  --ifm-color-content: #ffffff;
+  --ifm-color-content-secondary: #a1a1aa;
+  --ifm-navbar-background-color: #111111;
+  --ifm-footer-background-color: #111111;
+  --docusaurus-highlighted-code-line-bg: rgba(59, 130, 246, 0.2);
+}
+
+html[data-theme='dark'] body {
+  font-family: 'Inter', sans-serif;
+  background: #0a0a0a;
+  color: #ffffff;
+}
+
+/* Clear button styling with darker, more contrasting colors */
+html[data-theme='dark'] .button--primary {
+  background: #1e40af;
+  border: 2px solid #1e40af;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+html[data-theme='dark'] .button--primary:hover {
+  background: #1d4ed8;
+  border-color: #1d4ed8;
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(30, 64, 175, 0.4);
+}
+
+html[data-theme='dark'] .button--secondary {
+  background: transparent;
+  border: 2px solid #1e40af;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+html[data-theme='dark'] .button--secondary:hover {
+  background: #1e40af;
+  border-color: #1e40af;
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(30, 64, 175, 0.4);
+}
+
+/* Make sure buttons are visible on all elements */
+html[data-theme='dark'] .button,
+html[data-theme='dark'] .button--lg {
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* Add more space between buttons */
+.buttons > .button:not(:last-child) {
+  margin-right: 2rem;
+}
+
+/* For the hero buttons specifically */
+.hero .buttons .button + .button {
+  margin-left: 2rem;
+}
